@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+#app {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#parking-lot {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+.slot {
+    border: 2px solid #333;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.slot.small {
+    background-color: #90ee90;
+}
+
+.slot.large {
+    background-color: #add8e6;
+}
+
+.slot.booked {
+    background-color: #f08080;
+}
