@@ -5,7 +5,7 @@
 
 1. Clone the repository:
     ```sh
-    git clone <your-repo-url>
+    git clone https://github.com/emarc99/web3-pre-test1.git
     cd parking-lot-management
     ```
 
